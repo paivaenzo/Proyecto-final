@@ -54,11 +54,13 @@ img {
 .italia {
     width: 300px;
 }
+
 th {
-     color: white;
+    color: white;
 }
+
 td {
-color: white;
+    color: white;
 }
 
 
@@ -112,23 +114,34 @@ color: white;
 
 .topnav {
     overflow: hidden;
-    background-color: #333;}
-  
-  /* Topnav links */
-  .topnav a {
+    background-color: #333;
+}
+
+/* Topnav links */
+.topnav a {
     float: left;
     display: block;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none; }
-  
-  @media screen and (max-width: 600px) {
-  .topnav a {
-      float: none;
-      width: 100%;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a {
+        float: none;
+        width: 100%;
     }
-} 
-.topnav{
-    background-color:rgb(4, 120, 155) ;
-} 
+}
+
+.topnav {
+    background-color: rgb(4, 120, 155);
+}
+
+a:hover {
+    font-weight: bold;
+    background-color: rgb(25, 148, 185);
+    color: black;
+    text-decoration: underline;
+}
+
