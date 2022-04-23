@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>Cuenta Futinfo</title>
+</head>
+
+<body>
+    <h1>Crea tu cuenta</h1>
+    <form action="" method="get">
+        <div>
+            <label for="Apellido">Apellido</label>
+            <input type="text" id=Apellido>
+        </div>
+
+        <div>
+            <label for="Nombre">Nombre</label>
+            <input type="text" id="Nombre">
+        </div>
+
+        <div>
+            <label for="Telefono">Telefono</label>
+            <input type="tel" id="Telefono">
+        </div>
+        <div>
+            <label for="Civil">¿Estado civil?</label>
+            <select id="Civil">
+                <option value="Soltero">Soltero</option>
+                <option value="Casado">Casado</option>
+                <option value="Divorciado">Divorciado</option>
+            </select>
+
+        </div>
+
+
+        <fieldset>
+            <legend>¿Que edad tenes?</legend>
+
+            <div>
+                <input type="radio" id="edad" value="1">
+                <label for="edad">Menor a 18</label>
+            </div>
+
+            <div>
+                <input type="radio" id="edad" value="1">
+                <label for="edad">Entre 18 y 40</label>
+            </div>
+
+            <div>
+                <input type="radio" id="edad" value="1">
+                <label for="edad">Mayor a 40</label>
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Credencial de acceso</legend>
+
+            <div>
+                <label for="email">Correo electronico</label>
+                <input type="email" id="email" placeholder="mi correo">
+            </div>
+
+            <div>
+                <label for="contrasena">Contraseña</label>
+                <input type="password" id="contrasena" placeholder="mi contraseña">
+            </div>
+
+            <div>
+                <label for="contrasena">Repetir contraseña</label>
+                <input type="password" id="contrasena" placeholder="mi contraseña">
+            </div>
+        </fieldset>
+
+        <div id="boton"> 
+            <input type="reset" id="botonlimpiar" value="Limpiar">
+            <input type="submit" id="botonenviar" value="Enviar Datos">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Pagina Principal </a></li>
+                <li><a href="seccion1.html">Inicio</a> </li>
+                <li> <a href="seccion2.html">Informacion de ligas</a> </li>
+                <li><a href="seccion3.html">Ajustes</a> </li>
+                
+    
+            </ul>
+        </nav>
+
+
+
+
+
+    </form>
+    <footer>
+        <p> Copyright ©By Enzostudio </p>
+
+    </footer>
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
