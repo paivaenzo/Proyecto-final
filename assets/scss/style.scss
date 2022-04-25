@@ -1,0 +1,106 @@
+h1 {
+    color: rgb(4, 120, 155);
+}
+
+h2 {
+    color: rgb(4, 120, 155)
+}
+
+p {
+    color: white;
+}
+
+ul {
+    list-style-type: square;
+}
+
+body {
+    font-style: oblique;
+}
+
+body {
+    background-color: black;
+}
+
+table {
+    color: white;
+}
+
+label {
+    color: rgb(4, 120, 155);
+}
+
+input {
+    color: rgb(4, 120, 155);
+}
+
+legend {
+    color: white;
+}
+
+img {
+    width: 1880px;
+}
+
+.eriksen {
+    width: 300px;
+}
+
+.españa {
+    width: 300px;
+}
+
+
+.italia {
+    width: 300px;
+}
+
+th {
+    color: white;
+}
+
+td {
+    color: white;
+}
+
+
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+
+.topnav {
+    background-color: rgb(4, 120, 155);
+}
+
+
+
+li {
+    font-weight: bold;
+    background-color: rgb(25, 148, 185)  ;
+    color: black;
+    a { 
+        text-decoration: underline;
+    }
+    &:hover {
+        background-color: rgb(25, 148, 185)   ;
+    }
+}
